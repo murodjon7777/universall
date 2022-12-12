@@ -11,7 +11,7 @@ eur=r[1]["Rate"]
 
 
 
-@dp.message_handler(text="valyuta")
+@dp.message_handler(text="Valyuta")
 async def valyuta(message:types.Message):
     # await message.answer(text=f'{rubl}')
     text1=f"1dollar  {usd} so'm\n 1yeuro   {eur} so'm\n 1rubl  {rubl} so'm\n"

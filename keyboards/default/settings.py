@@ -3,7 +3,7 @@ setting=ReplyKeyboardMarkup(
   keyboard = [
         [
             KeyboardButton(text="Tilni sozlash"),
-            KeyboardButton(text="/valyuta"),            
+            KeyboardButton(text="Valyuta"),            
          ],
     ],
     resize_keyboard=True
